@@ -1,0 +1,80 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bus Ticket Booking</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #f2f2f2;
+            text-align: center;
+        }
+
+        .container {
+            width: 400px;
+            margin: 50px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        select, input, button {
+            width: 90%;
+            padding: 10px;
+            margin: 10px;
+            font-size: 16px;
+        }
+
+        button {
+            background: #2196F3;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #result {
+            margin-top: 20px;
+            color: green;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🚌 Bus Ticket Booking</h1>
+
+    <label>From:</label>
+    <select id="from">
+        <option>Kurnool</option>
+        <option>Hyderabad</option>
+        <option>Bangalore</option>
+        <option>Chennai</option>
+    </select>
+
+    <label>To:</label>
+    <select id="to">
+        <option>Hyderabad</option>
+        <option>Kurnool</option>
+        <option>Bangalore</option>
+        <option>Chennai</option>
+    </select>
+
+    <label>Bus:</label>
+    <select id="bus">
+        <option value="500">Express Bus - ₹500</option>
+        <option value="700">AC Sleeper - ₹700</option>
+        <option value="900">Volvo Bus - ₹900</option>
+    </select>
+
+    <label>Number of Tickets:</label>
+```
